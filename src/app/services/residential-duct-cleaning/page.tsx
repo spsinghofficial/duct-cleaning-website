@@ -233,8 +233,15 @@ export default function ResidentialDuctCleaningPage() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8">
-              <div className="text-center">
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 relative overflow-hidden">
+              <div className="absolute inset-0 opacity-20">
+                <img 
+                  src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+                  alt="HVAC cleaning equipment"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="relative text-center">
                 <div className="text-4xl font-bold text-blue-900 mb-2">2-4 Hours</div>
                 <div className="text-lg text-gray-700 mb-6">Average Cleaning Time</div>
                 

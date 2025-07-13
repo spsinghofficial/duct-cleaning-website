@@ -28,8 +28,8 @@ export function BeforeAfterGallery() {
       location: 'Toronto, ON',
       date: '2024-01-15',
       serviceType: 'Complete Residential Cleaning',
-      beforeImage: '/api/placeholder/600/400',
-      afterImage: '/api/placeholder/600/400',
+      beforeImage: 'https://images.unsplash.com/photo-1616627188467-fcd1c41f6227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+      afterImage: 'https://images.unsplash.com/photo-1558618047-3c8c5d99c42f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
       description: 'Heavy dust and debris accumulation in main return duct of a 3-bedroom home.',
       improvements: [
         'Removed 15+ years of dust buildup',
@@ -44,8 +44,8 @@ export function BeforeAfterGallery() {
       location: 'Mississauga, ON',
       date: '2024-01-12',
       serviceType: 'Commercial Duct Cleaning',
-      beforeImage: '/api/placeholder/600/400',
-      afterImage: '/api/placeholder/600/400',
+      beforeImage: 'https://images.unsplash.com/photo-1616627188467-fcd1c41f6227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+      afterImage: 'https://images.unsplash.com/photo-1558618047-3c8c5d99c42f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
       description: 'Office building with significant contamination from construction dust.',
       improvements: [
         'Removed construction debris',
@@ -60,8 +60,8 @@ export function BeforeAfterGallery() {
       location: 'Brampton, ON',
       date: '2024-01-10',
       serviceType: 'Premium Residential Service',
-      beforeImage: '/api/placeholder/600/400',
-      afterImage: '/api/placeholder/600/400',
+      beforeImage: 'https://images.unsplash.com/photo-1616627188467-fcd1c41f6227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+      afterImage: 'https://images.unsplash.com/photo-1558618047-3c8c5d99c42f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
       description: 'Basement return vent with mold growth and moisture damage.',
       improvements: [
         'Completely removed mold',
@@ -76,8 +76,8 @@ export function BeforeAfterGallery() {
       location: 'Markham, ON',
       date: '2024-01-08',
       serviceType: 'Commercial Kitchen Cleaning',
-      beforeImage: '/api/placeholder/600/400',
-      afterImage: '/api/placeholder/600/400',
+      beforeImage: 'https://images.unsplash.com/photo-1616627188467-fcd1c41f6227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+      afterImage: 'https://images.unsplash.com/photo-1558618047-3c8c5d99c42f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
       description: 'Restaurant kitchen exhaust system with grease buildup.',
       improvements: [
         'Removed fire hazard grease',
@@ -92,8 +92,8 @@ export function BeforeAfterGallery() {
       location: 'Richmond Hill, ON',
       date: '2024-01-05',
       serviceType: 'Dryer Vent Cleaning',
-      beforeImage: '/api/placeholder/600/400',
-      afterImage: '/api/placeholder/600/400',
+      beforeImage: 'https://images.unsplash.com/photo-1616627188467-fcd1c41f6227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+      afterImage: 'https://images.unsplash.com/photo-1558618047-3c8c5d99c42f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
       description: 'Severely clogged dryer vent posing fire risk.',
       improvements: [
         'Eliminated fire hazard',
@@ -108,8 +108,8 @@ export function BeforeAfterGallery() {
       location: 'Vaughan, ON',
       date: '2024-01-03',
       serviceType: 'Complete System Cleaning',
-      beforeImage: '/api/placeholder/600/400',
-      afterImage: '/api/placeholder/600/400',
+      beforeImage: 'https://images.unsplash.com/photo-1616627188467-fcd1c41f6227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+      afterImage: 'https://images.unsplash.com/photo-1558618047-3c8c5d99c42f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
       description: 'HVAC coils with heavy dust and debris affecting efficiency.',
       improvements: [
         'Restored optimal airflow',
@@ -160,14 +160,17 @@ export function BeforeAfterGallery() {
               {/* Before Image */}
               <div className="relative">
                 <div className="aspect-[4/3] bg-gray-200 relative overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-br from-red-900 to-red-700 flex items-center justify-center">
-                    <div className="text-center text-white">
-                      <div className="text-2xl font-bold mb-2">BEFORE</div>
-                      <div className="text-lg opacity-90">Dirty & Contaminated</div>
-                    </div>
-                  </div>
+                  <img 
+                    src={galleryItems[currentIndex].beforeImage}
+                    alt="Before duct cleaning"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                   <div className="absolute top-4 left-4 bg-red-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
                     BEFORE
+                  </div>
+                  <div className="absolute bottom-4 left-4 text-white">
+                    <div className="text-lg font-bold">Dirty & Contaminated</div>
                   </div>
                 </div>
               </div>
@@ -175,14 +178,17 @@ export function BeforeAfterGallery() {
               {/* After Image */}
               <div className="relative">
                 <div className="aspect-[4/3] bg-gray-200 relative overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-br from-green-600 to-green-500 flex items-center justify-center">
-                    <div className="text-center text-white">
-                      <div className="text-2xl font-bold mb-2">AFTER</div>
-                      <div className="text-lg opacity-90">Clean & Sanitized</div>
-                    </div>
-                  </div>
+                  <img 
+                    src={galleryItems[currentIndex].afterImage}
+                    alt="After duct cleaning"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
                   <div className="absolute top-4 right-4 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
                     AFTER
+                  </div>
+                  <div className="absolute bottom-4 right-4 text-white">
+                    <div className="text-lg font-bold">Clean & Sanitized</div>
                   </div>
                 </div>
               </div>
@@ -261,7 +267,19 @@ export function BeforeAfterGallery() {
               onClick={() => openModal(item)}
             >
               <div className="aspect-[4/3] bg-gray-200 relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-r from-red-600 via-yellow-500 to-green-600 flex items-center justify-center">
+                <div className="grid grid-cols-2 h-full">
+                  <img 
+                    src={item.beforeImage}
+                    alt="Before"
+                    className="w-full h-full object-cover"
+                  />
+                  <img 
+                    src={item.afterImage}
+                    alt="After"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                   <div className="text-center text-white">
                     <Eye className="h-8 w-8 mx-auto mb-2" />
                     <div className="font-semibold">View Details</div>

@@ -53,22 +53,22 @@ export function TrustBadges() {
     {
       name: 'NADCA Certified',
       description: 'National Air Duct Cleaners Association',
-      logo: 'NADCA',
+      logo: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
     },
     {
       name: 'BBB Accredited',
       description: 'Better Business Bureau A+ Rating',
-      logo: 'BBB A+',
+      logo: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
     },
     {
       name: 'WSIB Insured',
       description: 'Workplace Safety Insurance Board',
-      logo: 'WSIB',
+      logo: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
     },
     {
       name: 'EPA Approved',
       description: 'Environmental Protection Agency',
-      logo: 'EPA',
+      logo: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
     },
   ];
 
@@ -115,10 +115,12 @@ export function TrustBadges() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {certifications.map((cert, index) => (
               <div key={index} className="text-center">
-                <div className="bg-gray-100 rounded-lg p-6 mb-3 h-24 flex items-center justify-center">
-                  <div className="text-2xl font-bold text-gray-700">
-                    {cert.logo}
-                  </div>
+                <div className="bg-gray-100 rounded-lg p-4 mb-3 h-24 flex items-center justify-center overflow-hidden">
+                  <img 
+                    src={cert.logo}
+                    alt={cert.name}
+                    className="w-full h-full object-contain"
+                  />
                 </div>
                 <h4 className="font-semibold text-gray-900 mb-1">
                   {cert.name}

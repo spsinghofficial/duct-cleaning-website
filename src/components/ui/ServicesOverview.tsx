@@ -9,6 +9,7 @@ interface Service {
   title: string;
   description: string;
   icon: React.ReactNode;
+  image: string;
   features: string[];
   startingPrice: string;
   href: string;
@@ -21,6 +22,7 @@ export function ServicesOverview() {
       title: 'Residential Duct Cleaning',
       description: 'Complete air duct cleaning for homes and apartments to improve indoor air quality.',
       icon: <Home className="h-8 w-8" />,
+      image: 'https://images.unsplash.com/photo-1558618047-3c8c5d99c42f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
       features: ['Complete system cleaning', 'HEPA filtration', 'Before/after photos', '2-year warranty'],
       startingPrice: '$299',
       href: '/services/residential-duct-cleaning',
@@ -30,6 +32,7 @@ export function ServicesOverview() {
       title: 'Commercial Duct Cleaning',
       description: 'Professional duct cleaning services for offices, restaurants, and commercial buildings.',
       icon: <Factory className="h-8 w-8" />,
+      image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
       features: ['Large-scale cleaning', 'Minimal downtime', 'Compliance reports', 'Flexible scheduling'],
       startingPrice: '$599',
       href: '/services/commercial-duct-cleaning',
@@ -39,6 +42,7 @@ export function ServicesOverview() {
       title: 'Dryer Vent Cleaning',
       description: 'Professional dryer vent cleaning to prevent fires and improve efficiency.',
       icon: <Wind className="h-8 w-8" />,
+      image: 'https://images.unsplash.com/photo-1626806787461-102c1bf5ca15?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
       features: ['Fire prevention', 'Energy savings', 'Lint removal', 'Safety inspection'],
       startingPrice: '$149',
       href: '/services/dryer-vent-cleaning',
@@ -48,6 +52,7 @@ export function ServicesOverview() {
       title: 'Sanitization Services',
       description: 'Advanced sanitization and disinfection of your HVAC system.',
       icon: <Shield className="h-8 w-8" />,
+      image: 'https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
       features: ['EPA-approved products', 'Virus elimination', 'Allergen reduction', 'Safe for families'],
       startingPrice: '$199',
       href: '/services/sanitization',
@@ -75,6 +80,15 @@ export function ServicesOverview() {
               key={service.id}
               className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden"
             >
+              {/* Service Image */}
+              <div className="h-48 overflow-hidden">
+                <img 
+                  src={service.image}
+                  alt={service.title}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              
               {/* Card Header */}
               <div className="p-6 border-b border-gray-100">
                 <div className="text-blue-600 mb-4">

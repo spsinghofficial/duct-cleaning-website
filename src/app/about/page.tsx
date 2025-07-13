@@ -3,9 +3,7 @@ import { BeforeAfterGallery } from '@/components/ui/BeforeAfterGallery';
 import Link from 'next/link';
 import { 
   Award, 
-  Users, 
   Shield, 
-  
   CheckCircle, 
   Star,
   Heart,
@@ -66,6 +64,7 @@ export default function AboutPage() {
       name: 'Michael Johnson',
       role: 'Founder & CEO',
       experience: '15+ years',
+      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
       certifications: ['NADCA Certified', 'IICRC Certified'],
       description: 'Started CleanAir Pro with a mission to improve indoor air quality for families across the GTA.',
     },
@@ -73,6 +72,7 @@ export default function AboutPage() {
       name: 'Sarah Chen',
       role: 'Operations Manager',
       experience: '8+ years',
+      image: 'https://images.unsplash.com/photo-1494790108755-2616b612b742?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
       certifications: ['HVAC Specialist', 'Safety Coordinator'],
       description: 'Ensures every job meets our high standards and customers receive exceptional service.',
     },
@@ -80,6 +80,7 @@ export default function AboutPage() {
       name: 'David Rodriguez',
       role: 'Lead Technician',
       experience: '10+ years',
+      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
       certifications: ['NADCA Certified', 'Master Technician'],
       description: 'Trains our team and leads complex commercial cleaning projects throughout the region.',
     },
@@ -87,6 +88,7 @@ export default function AboutPage() {
       name: 'Lisa Thompson',
       role: 'Customer Relations',
       experience: '5+ years',
+      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
       certifications: ['Customer Service Excellence'],
       description: 'Dedicated to ensuring every customer has a positive experience from quote to completion.',
     },
@@ -297,8 +299,12 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {team.map((member, index) => (
               <div key={index} className="bg-gray-50 rounded-xl p-6 text-center">
-                <div className="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Users className="h-10 w-10 text-white" />
+                <div className="w-20 h-20 rounded-full mx-auto mb-4 overflow-hidden">
+                  <img 
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   {member.name}
