@@ -98,10 +98,10 @@ export function ContactForm() {
             <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
               <CheckCircle className="w-8 h-8 text-green-600" />
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">
+            <h3 className="text-2xl font-bold text-[#003A66] mb-4">
               Message Sent Successfully!
             </h3>
-            <p className="text-gray-600 mb-6">
+            <p className="text-[#1A2B34] mb-6">
               Thank you for contacting CleanAir Pro. We&apos;ve received your message and will 
               respond within 2 hours during business hours.
             </p>
@@ -114,7 +114,7 @@ export function ContactForm() {
               </a>
               <button
                 onClick={() => setIsSubmitted(false)}
-                className="border border-gray-300 hover:bg-gray-50 text-gray-700 px-6 py-3 rounded-lg font-semibold transition-colors"
+                className="border border-gray-300 hover:bg-gray-50 text-[#4C6170] px-6 py-3 rounded-lg font-semibold transition-colors"
               >
                 Send Another Message
               </button>
@@ -133,10 +133,10 @@ export function ContactForm() {
           <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-600 rounded-full mb-6">
             <MessageCircle className="h-8 w-8 text-white" />
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#003A66] mb-4">
             Send Us a Message
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-xl text-[#1A2B34] max-w-2xl mx-auto">
             Have questions about our services? Need a quote? Just want to say hello? 
             Fill out the form below and we&apos;ll get back to you quickly.
           </p>
@@ -147,18 +147,18 @@ export function ContactForm() {
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-8">
             {/* Personal Information */}
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+              <h3 className="text-lg font-semibold text-[#003A66] mb-4 flex items-center">
                 <div className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm mr-3">1</div>
                 Personal Information
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block text-sm font-medium text-[#4C6170] mb-2">
                     First Name *
                   </label>
                   <input
                     {...register('firstName')}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-black text-base font-medium"
                     placeholder="John"
                   />
                   {errors.firstName && (
@@ -166,12 +166,12 @@ export function ContactForm() {
                   )}
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block text-sm font-medium text-[#4C6170] mb-2">
                     Last Name *
                   </label>
                   <input
                     {...register('lastName')}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-black text-base font-medium"
                     placeholder="Doe"
                   />
                   {errors.lastName && (
@@ -179,13 +179,13 @@ export function ContactForm() {
                   )}
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block text-sm font-medium text-[#4C6170] mb-2">
                     Email Address *
                   </label>
                   <input
                     {...register('email')}
                     type="email"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-black text-base font-medium"
                     placeholder="john@example.com"
                   />
                   {errors.email && (
@@ -193,13 +193,13 @@ export function ContactForm() {
                   )}
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block text-sm font-medium text-[#4C6170] mb-2">
                     Phone Number *
                   </label>
                   <input
                     {...register('phone')}
                     type="tel"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-black text-base font-medium"
                     placeholder="(555) 123-4567"
                   />
                   {errors.phone && (
@@ -211,7 +211,7 @@ export function ContactForm() {
 
             {/* Inquiry Type */}
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+              <h3 className="text-lg font-semibold text-[#003A66] mb-4 flex items-center">
                 <div className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm mr-3">2</div>
                 What can we help you with?
               </h3>
@@ -225,8 +225,8 @@ export function ContactForm() {
                       className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 mt-1"
                     />
                     <div className="ml-3">
-                      <div className="font-medium text-gray-900">{type.label}</div>
-                      <div className="text-sm text-gray-600">{type.description}</div>
+                      <div className="font-medium text-[#003A66]">{type.label}</div>
+                      <div className="text-sm text-[#1A2B34]">{type.description}</div>
                     </div>
                   </label>
                 ))}
@@ -239,7 +239,7 @@ export function ContactForm() {
             {/* Service Types (conditional) */}
             {(inquiryType === 'quote' || inquiryType === 'general') && (
               <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-4">
+                <h3 className="text-lg font-semibold text-[#003A66] mb-4">
                   Services of Interest (Optional)
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -251,7 +251,7 @@ export function ContactForm() {
                         value={service}
                         className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
                       />
-                      <span className="ml-3 text-gray-900">{service}</span>
+                      <span className="ml-3 text-[#003A66]">{service}</span>
                     </label>
                   ))}
                 </div>
@@ -260,13 +260,13 @@ export function ContactForm() {
 
             {/* Contact Preferences */}
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+              <h3 className="text-lg font-semibold text-[#003A66] mb-4 flex items-center">
                 <div className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm mr-3">3</div>
                 Contact Preferences
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block text-sm font-medium text-[#4C6170] mb-2">
                     Preferred Contact Method *
                   </label>
                   <div className="space-y-2">
@@ -282,7 +282,7 @@ export function ContactForm() {
                           value={method.value}
                           className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300"
                         />
-                        <span className="ml-2 text-gray-900">{method.label}</span>
+                        <span className="ml-2 text-[#003A66]">{method.label}</span>
                       </label>
                     ))}
                   </div>
@@ -291,12 +291,12 @@ export function ContactForm() {
                   )}
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block text-sm font-medium text-[#4C6170] mb-2">
                     Best Time to Contact *
                   </label>
                   <select
                     {...register('bestTimeToContact')}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-black text-base font-medium"
                   >
                     <option value="">Select best time</option>
                     {timeSlots.map((time) => (
@@ -314,18 +314,18 @@ export function ContactForm() {
 
             {/* Message */}
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+              <h3 className="text-lg font-semibold text-[#003A66] mb-4 flex items-center">
                 <div className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm mr-3">4</div>
                 Your Message
               </h3>
               <div className="space-y-4">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block text-sm font-medium text-[#4C6170] mb-2">
                     Subject *
                   </label>
                   <input
                     {...register('subject')}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-black text-base font-medium"
                     placeholder="Brief description of your inquiry"
                   />
                   {errors.subject && (
@@ -333,13 +333,13 @@ export function ContactForm() {
                   )}
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block text-sm font-medium text-[#4C6170] mb-2">
                     Message *
                   </label>
                   <textarea
                     {...register('message')}
                     rows={6}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-black text-base font-medium"
                     placeholder="Please provide details about your inquiry, including any specific questions or requirements..."
                   />
                   {errors.message && (
@@ -351,27 +351,27 @@ export function ContactForm() {
 
             {/* Additional Information */}
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">
+              <h3 className="text-lg font-semibold text-[#003A66] mb-4">
                 Additional Information (Optional)
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block text-sm font-medium text-[#4C6170] mb-2">
                     Property Address
                   </label>
                   <input
                     {...register('address')}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-black text-base font-medium"
                     placeholder="123 Main Street, Toronto, ON"
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block text-sm font-medium text-[#4C6170] mb-2">
                     How did you hear about us?
                   </label>
                   <select
                     {...register('heardAboutUs')}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-black text-base font-medium"
                   >
                     <option value="">Select option</option>
                     <option value="google">Google Search</option>
@@ -387,7 +387,7 @@ export function ContactForm() {
 
             {/* Urgency */}
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-4">
+              <label className="block text-sm font-medium text-[#4C6170] mb-4">
                 Urgency Level *
               </label>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -400,8 +400,8 @@ export function ContactForm() {
                       className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 mt-1"
                     />
                     <div className="ml-3">
-                      <div className="font-medium text-gray-900">{level.label}</div>
-                      <div className="text-sm text-gray-600">{level.description}</div>
+                      <div className="font-medium text-[#003A66]">{level.label}</div>
+                      <div className="text-sm text-[#1A2B34]">{level.description}</div>
                     </div>
                   </label>
                 ))}
@@ -430,7 +430,7 @@ export function ContactForm() {
                   </>
                 )}
               </button>
-              <p className="text-sm text-gray-600 text-center mt-4">
+              <p className="text-sm text-[#1A2B34] text-center mt-4">
                 We typically respond within 2 hours during business hours
               </p>
             </div>

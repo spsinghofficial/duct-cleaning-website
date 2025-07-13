@@ -123,7 +123,7 @@ export function TestimonialsCarousel() {
             className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 bg-white hover:bg-gray-50 rounded-full p-3 shadow-lg border transition-colors"
             aria-label="Previous testimonial"
           >
-            <ChevronLeft className="h-6 w-6 text-gray-600" />
+            <ChevronLeft className="h-6 w-6 text-gray-900" />
           </button>
 
           <button
@@ -131,7 +131,7 @@ export function TestimonialsCarousel() {
             className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 bg-white hover:bg-gray-50 rounded-full p-3 shadow-lg border transition-colors"
             aria-label="Next testimonial"
           >
-            <ChevronRight className="h-6 w-6 text-gray-600" />
+            <ChevronRight className="h-6 w-6 text-gray-900" />
           </button>
 
           {/* Testimonial Card */}
@@ -140,27 +140,27 @@ export function TestimonialsCarousel() {
             
             <div className="mb-6">
               <p className="text-lg md:text-xl text-gray-700 leading-relaxed italic">
-                &ldquo;{testimonials[currentIndex].review}&rdquo;
+                &ldquo;{testimonials[currentIndex]?.review || ''}&rdquo;
               </p>
             </div>
 
             <div className="flex justify-center mb-4">
-              {renderStars(testimonials[currentIndex].rating)}
+              {renderStars(testimonials[currentIndex]?.rating || 5)}
             </div>
 
             <div className="mb-4">
               <h4 className="text-xl font-semibold text-gray-900">
-                {testimonials[currentIndex].name}
+                {testimonials[currentIndex]?.name || ''}
               </h4>
-              <p className="text-gray-600">
-                {testimonials[currentIndex].location}
+              <p className="text-gray-800">
+                {testimonials[currentIndex]?.location || ''}
               </p>
             </div>
 
             <div className="text-sm text-gray-500">
-              <span className="font-medium">{testimonials[currentIndex].service}</span>
+              <span className="font-medium">{testimonials[currentIndex]?.service || ''}</span>
               {' • '}
-              <span>{new Date(testimonials[currentIndex].date).toLocaleDateString()}</span>
+              <span>{testimonials[currentIndex]?.date ? new Date(testimonials[currentIndex].date).toLocaleDateString() : ''}</span>
             </div>
           </div>
 
@@ -183,15 +183,15 @@ export function TestimonialsCarousel() {
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div>
             <div className="text-3xl font-bold text-blue-900 mb-2">500+</div>
-            <div className="text-gray-600">Happy Customers</div>
+            <div className="text-gray-800">Happy Customers</div>
           </div>
           <div>
             <div className="text-3xl font-bold text-blue-900 mb-2">4.9/5</div>
-            <div className="text-gray-600">Average Rating</div>
+            <div className="text-gray-800">Average Rating</div>
           </div>
           <div>
             <div className="text-3xl font-bold text-blue-900 mb-2">98%</div>
-            <div className="text-gray-600">Customer Satisfaction</div>
+            <div className="text-gray-800">Customer Satisfaction</div>
           </div>
         </div>
       </div>

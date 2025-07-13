@@ -82,10 +82,10 @@ export function QuickQuoteForm() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+              <h3 className="text-2xl font-bold text-[#003A66] mb-4">
                 Quote Request Submitted!
               </h3>
-              <p className="text-gray-600 mb-6">
+              <p className="text-[#1A2B34] mb-6">
                 Thank you for your interest in our services. We&apos;ll review your request and contact you within 2 hours with a detailed quote.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -95,7 +95,7 @@ export function QuickQuoteForm() {
                 </a>
                 <button
                   onClick={() => setIsSubmitted(false)}
-                  className="border border-gray-300 hover:bg-gray-50 text-gray-700 px-6 py-3 rounded-lg font-semibold transition-colors"
+                  className="border border-gray-300 hover:bg-gray-50 text-[#4C6170] px-6 py-3 rounded-lg font-semibold transition-colors"
                 >
                   Submit Another Quote
                 </button>
@@ -116,10 +116,10 @@ export function QuickQuoteForm() {
             <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-600 rounded-full mb-6">
               <Calculator className="h-8 w-8 text-white" />
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#003A66] mb-4">
               Get Your Free Quote
             </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            <p className="text-xl text-[#4C6170] max-w-2xl mx-auto">
               Fill out our quick form and get a personalized quote within 2 hours. 
               No obligations, just honest pricing for quality service.
             </p>
@@ -130,18 +130,18 @@ export function QuickQuoteForm() {
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
               {/* Personal Information */}
               <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                <h3 className="text-lg font-semibold text-[#003A66] mb-4 flex items-center">
                   <div className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm mr-3">1</div>
                   Personal Information
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-sm font-medium text-[#4C6170] mb-2">
                       First Name *
                     </label>
                     <input
                       {...register('firstName')}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-black text-base font-medium"
                       placeholder="John"
                     />
                     {errors.firstName && (
@@ -149,12 +149,12 @@ export function QuickQuoteForm() {
                     )}
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-sm font-medium text-[#4C6170] mb-2">
                       Last Name *
                     </label>
                     <input
                       {...register('lastName')}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-black text-base font-medium"
                       placeholder="Doe"
                     />
                     {errors.lastName && (
@@ -162,13 +162,13 @@ export function QuickQuoteForm() {
                     )}
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-sm font-medium text-[#4C6170] mb-2">
                       Email Address *
                     </label>
                     <input
                       {...register('email')}
                       type="email"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-black text-base font-medium"
                       placeholder="john@example.com"
                     />
                     {errors.email && (
@@ -176,13 +176,13 @@ export function QuickQuoteForm() {
                     )}
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-sm font-medium text-[#4C6170] mb-2">
                       Phone Number *
                     </label>
                     <input
                       {...register('phone')}
                       type="tel"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-black text-base font-medium"
                       placeholder="(555) 123-4567"
                     />
                     {errors.phone && (
@@ -194,18 +194,18 @@ export function QuickQuoteForm() {
 
               {/* Property Information */}
               <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                <h3 className="text-lg font-semibold text-[#003A66] mb-4 flex items-center">
                   <div className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm mr-3">2</div>
                   Property Information
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="md:col-span-2">
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-sm font-medium text-[#4C6170] mb-2">
                       Property Address *
                     </label>
                     <input
                       {...register('address')}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-black text-base font-medium"
                       placeholder="123 Main Street"
                     />
                     {errors.address && (
@@ -213,12 +213,12 @@ export function QuickQuoteForm() {
                     )}
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-sm font-medium text-[#4C6170] mb-2">
                       City *
                     </label>
                     <input
                       {...register('city')}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-black text-base font-medium"
                       placeholder="Toronto"
                     />
                     {errors.city && (
@@ -226,12 +226,12 @@ export function QuickQuoteForm() {
                     )}
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-sm font-medium text-[#4C6170] mb-2">
                       Postal Code *
                     </label>
                     <input
                       {...register('postalCode')}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-black text-base font-medium"
                       placeholder="M5V 3A8"
                     />
                     {errors.postalCode && (
@@ -239,12 +239,12 @@ export function QuickQuoteForm() {
                     )}
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-sm font-medium text-[#4C6170] mb-2">
                       Property Type *
                     </label>
                     <select
                       {...register('propertyType')}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-black text-base font-medium"
                     >
                       <option value="">Select property type</option>
                       <option value="house">House</option>
@@ -257,12 +257,12 @@ export function QuickQuoteForm() {
                     )}
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-sm font-medium text-[#4C6170] mb-2">
                       Square Footage *
                     </label>
                     <select
                       {...register('squareFootage')}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-black text-base font-medium"
                     >
                       <option value="">Select square footage</option>
                       {squareFootageOptions.map((option) => (
@@ -280,7 +280,7 @@ export function QuickQuoteForm() {
 
               {/* Service Selection */}
               <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                <h3 className="text-lg font-semibold text-[#003A66] mb-4 flex items-center">
                   <div className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm mr-3">3</div>
                   Services Needed
                 </h3>
@@ -294,8 +294,8 @@ export function QuickQuoteForm() {
                         className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
                       />
                       <div className="ml-3 flex-1">
-                        <div className="font-medium text-gray-900">{service.label}</div>
-                        <div className="text-sm text-gray-600">{service.price}</div>
+                        <div className="font-medium text-[#003A66]">{service.label}</div>
+                        <div className="text-sm text-[#1A2B34]">{service.price}</div>
                       </div>
                     </label>
                   ))}
@@ -307,7 +307,7 @@ export function QuickQuoteForm() {
 
               {/* Timeline */}
               <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                <h3 className="text-lg font-semibold text-[#003A66] mb-4 flex items-center">
                   <div className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm mr-3">4</div>
                   When do you need service?
                 </h3>
@@ -326,8 +326,8 @@ export function QuickQuoteForm() {
                         className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300"
                       />
                       <div className="ml-3">
-                        <div className="font-medium text-gray-900">{option.label}</div>
-                        <div className="text-sm text-gray-600">{option.desc}</div>
+                        <div className="font-medium text-[#003A66]">{option.label}</div>
+                        <div className="text-sm text-[#1A2B34]">{option.desc}</div>
                       </div>
                     </label>
                   ))}
@@ -339,13 +339,13 @@ export function QuickQuoteForm() {
 
               {/* Additional Information */}
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
+                <label className="block text-sm font-medium text-[#4C6170] mb-2">
                   Additional Information (Optional)
                 </label>
                 <textarea
                   {...register('additionalInfo')}
                   rows={4}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-black text-base font-medium"
                   placeholder="Any specific concerns, access issues, or special requirements..."
                 />
               </div>
@@ -366,7 +366,7 @@ export function QuickQuoteForm() {
                     'Get My Free Quote'
                   )}
                 </button>
-                <p className="text-sm text-gray-600 text-center mt-4">
+                <p className="text-sm text-[#1A2B34] text-center mt-4">
                   We&apos;ll contact you within 2 hours with your personalized quote
                 </p>
               </div>

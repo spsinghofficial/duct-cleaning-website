@@ -101,37 +101,28 @@ export function ServiceAreaMap() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-          {/* Map Placeholder */}
+          {/* Map with Real Image */}
           <div className="order-2 lg:order-1">
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 h-96 flex items-center justify-center relative overflow-hidden">
-              {/* Decorative Map Background */}
-              <div className="absolute inset-0 opacity-10">
-                <div className="grid grid-cols-6 grid-rows-6 h-full w-full gap-2">
-                  {Array.from({ length: 36 }).map((_, i) => (
-                    <div
-                      key={i}
-                      className={`rounded ${
-                        [5, 6, 7, 11, 12, 13, 17, 18, 19].includes(i)
-                          ? 'bg-blue-600'
-                          : 'bg-gray-300'
-                      }`}
-                    />
-                  ))}
-                </div>
-              </div>
-              
-              {/* Map Content */}
-              <div className="relative z-10 text-center">
-                <MapPin className="h-16 w-16 text-blue-600 mx-auto mb-4" />
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">
+            <div className="rounded-2xl h-96 relative overflow-hidden shadow-lg">
+              <img 
+                src="https://images.unsplash.com/photo-1524661135-423995f22d0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                alt="Greater Toronto Area service map"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-blue-900/60 flex items-center justify-center">
+                {/* Map Content */}
+                <div className="text-center text-white">
+                <MapPin className="h-16 w-16 text-orange-400 mx-auto mb-4" />
+                <h3 className="text-2xl font-bold text-white mb-2">
                   Greater Toronto Area
                 </h3>
-                <p className="text-gray-600 mb-6">
+                <p className="text-blue-100 mb-6">
                   Professional duct cleaning services across 15+ cities
                 </p>
-                <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
+                <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
                   Check Your Area
                 </button>
+                </div>
               </div>
 
               {/* Location Pins */}
@@ -171,7 +162,7 @@ export function ServiceAreaMap() {
                       </span>
                     )}
                   </div>
-                  <div className="space-y-1 text-sm text-gray-600">
+                  <div className="space-y-1 text-sm text-gray-800">
                     <div className="flex items-center">
                       <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
                       <span>{area.coverage}</span>

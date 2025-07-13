@@ -28,7 +28,7 @@ export function BeforeAfterGallery() {
       location: 'Toronto, ON',
       date: '2024-01-15',
       serviceType: 'Complete Residential Cleaning',
-      beforeImage: 'https://images.unsplash.com/photo-1616627188467-fcd1c41f6227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+      beforeImage: 'https://images.unsplash.com/photo-1609220136736-443140cffec6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
       afterImage: 'https://images.unsplash.com/photo-1558618047-3c8c5d99c42f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
       description: 'Heavy dust and debris accumulation in main return duct of a 3-bedroom home.',
       improvements: [
@@ -44,8 +44,8 @@ export function BeforeAfterGallery() {
       location: 'Mississauga, ON',
       date: '2024-01-12',
       serviceType: 'Commercial Duct Cleaning',
-      beforeImage: 'https://images.unsplash.com/photo-1616627188467-fcd1c41f6227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-      afterImage: 'https://images.unsplash.com/photo-1558618047-3c8c5d99c42f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+      beforeImage: 'https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+      afterImage: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
       description: 'Office building with significant contamination from construction dust.',
       improvements: [
         'Removed construction debris',
@@ -60,8 +60,8 @@ export function BeforeAfterGallery() {
       location: 'Brampton, ON',
       date: '2024-01-10',
       serviceType: 'Premium Residential Service',
-      beforeImage: 'https://images.unsplash.com/photo-1616627188467-fcd1c41f6227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-      afterImage: 'https://images.unsplash.com/photo-1558618047-3c8c5d99c42f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+      beforeImage: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+      afterImage: 'https://images.unsplash.com/photo-1626806787461-102c1bf5ca15?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
       description: 'Basement return vent with mold growth and moisture damage.',
       improvements: [
         'Completely removed mold',
@@ -76,8 +76,8 @@ export function BeforeAfterGallery() {
       location: 'Markham, ON',
       date: '2024-01-08',
       serviceType: 'Commercial Kitchen Cleaning',
-      beforeImage: 'https://images.unsplash.com/photo-1616627188467-fcd1c41f6227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-      afterImage: 'https://images.unsplash.com/photo-1558618047-3c8c5d99c42f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+      beforeImage: 'https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+      afterImage: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
       description: 'Restaurant kitchen exhaust system with grease buildup.',
       improvements: [
         'Removed fire hazard grease',
@@ -92,8 +92,8 @@ export function BeforeAfterGallery() {
       location: 'Richmond Hill, ON',
       date: '2024-01-05',
       serviceType: 'Dryer Vent Cleaning',
-      beforeImage: 'https://images.unsplash.com/photo-1616627188467-fcd1c41f6227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-      afterImage: 'https://images.unsplash.com/photo-1558618047-3c8c5d99c42f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+      beforeImage: 'https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+      afterImage: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
       description: 'Severely clogged dryer vent posing fire risk.',
       improvements: [
         'Eliminated fire hazard',
@@ -108,8 +108,8 @@ export function BeforeAfterGallery() {
       location: 'Vaughan, ON',
       date: '2024-01-03',
       serviceType: 'Complete System Cleaning',
-      beforeImage: 'https://images.unsplash.com/photo-1616627188467-fcd1c41f6227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
-      afterImage: 'https://images.unsplash.com/photo-1558618047-3c8c5d99c42f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+      beforeImage: 'https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+      afterImage: 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
       description: 'HVAC coils with heavy dust and debris affecting efficiency.',
       improvements: [
         'Restored optimal airflow',
@@ -161,7 +161,7 @@ export function BeforeAfterGallery() {
               <div className="relative">
                 <div className="aspect-[4/3] bg-gray-200 relative overflow-hidden">
                   <img 
-                    src={galleryItems[currentIndex].beforeImage}
+                    src={galleryItems[currentIndex]?.beforeImage || ''}
                     alt="Before duct cleaning"
                     className="w-full h-full object-cover"
                   />
@@ -179,7 +179,7 @@ export function BeforeAfterGallery() {
               <div className="relative">
                 <div className="aspect-[4/3] bg-gray-200 relative overflow-hidden">
                   <img 
-                    src={galleryItems[currentIndex].afterImage}
+                    src={galleryItems[currentIndex]?.afterImage || ''}
                     alt="After duct cleaning"
                     className="w-full h-full object-cover"
                   />
@@ -198,26 +198,26 @@ export function BeforeAfterGallery() {
             <div className="p-8">
               <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-4">
                 <h3 className="text-2xl font-bold text-gray-900 mb-2 lg:mb-0">
-                  {galleryItems[currentIndex].title}
+                  {galleryItems[currentIndex]?.title || ''}
                 </h3>
                 <div className="flex items-center space-x-4 text-sm text-gray-600">
                   <div className="flex items-center">
                     <MapPin className="h-4 w-4 mr-1" />
-                    {galleryItems[currentIndex].location}
+                    {galleryItems[currentIndex]?.location || ''}
                   </div>
                   <div className="flex items-center">
                     <Calendar className="h-4 w-4 mr-1" />
-                    {new Date(galleryItems[currentIndex].date).toLocaleDateString()}
+                    {galleryItems[currentIndex]?.date ? new Date(galleryItems[currentIndex].date).toLocaleDateString() : ''}
                   </div>
                 </div>
               </div>
               
               <p className="text-gray-700 mb-6">
-                {galleryItems[currentIndex].description}
+                {galleryItems[currentIndex]?.description || ''}
               </p>
 
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                {galleryItems[currentIndex].improvements.map((improvement, index) => (
+                {galleryItems[currentIndex]?.improvements?.map((improvement, index) => (
                   <div key={index} className="text-center p-3 bg-green-50 rounded-lg">
                     <div className="text-green-600 font-semibold text-sm">
                       {improvement}
@@ -234,7 +234,7 @@ export function BeforeAfterGallery() {
               onClick={prevImage}
               className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-shadow"
             >
-              <ChevronLeft className="h-6 w-6 text-gray-600" />
+              <ChevronLeft className="h-6 w-6 text-gray-900" />
             </button>
             
             <div className="flex space-x-2">
@@ -253,7 +253,7 @@ export function BeforeAfterGallery() {
               onClick={nextImage}
               className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-shadow"
             >
-              <ChevronRight className="h-6 w-6 text-gray-600" />
+              <ChevronRight className="h-6 w-6 text-gray-900" />
             </button>
           </div>
         </div>
@@ -294,7 +294,7 @@ export function BeforeAfterGallery() {
                 <h3 className="font-semibold text-gray-900 mb-2 line-clamp-2">
                   {item.title}
                 </h3>
-                <div className="flex items-center justify-between text-sm text-gray-600">
+                <div className="flex items-center justify-between text-sm text-gray-800">
                   <span>{item.location}</span>
                   <span>{item.serviceType}</span>
                 </div>
@@ -316,7 +316,7 @@ export function BeforeAfterGallery() {
                   onClick={closeModal}
                   className="p-2 hover:bg-gray-100 rounded-full transition-colors"
                 >
-                  <X className="h-6 w-6 text-gray-600" />
+                  <X className="h-6 w-6 text-gray-900" />
                 </button>
               </div>
 

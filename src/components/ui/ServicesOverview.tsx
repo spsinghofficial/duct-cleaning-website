@@ -120,7 +120,7 @@ export function ServicesOverview() {
                   <span className="text-2xl font-bold text-blue-900">
                     {service.startingPrice}
                   </span>
-                  <span className="text-sm text-gray-500">Starting at</span>
+                  <span className="text-sm text-gray-800">Starting at</span>
                 </div>
                 <Link
                   href={service.href}
